@@ -1,0 +1,30 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Aiwinの博客</title>
+        <link>http://example.org/</link>
+        <description>This is my cool site</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>lauaiwin@foxmail.com (Aiwin)</managingEditor>
+            <webMaster>lauaiwin@foxmail.com (Aiwin)</webMaster><lastBuildDate>Sun, 04 Dec 2022 00:00:00 &#43;0000</lastBuildDate>
+            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Linux----作业过程简介</title>
+    <link>http://example.org/secode_post/</link>
+    <pubDate>Sun, 04 Dec 2022 00:00:00 &#43;0000</pubDate>
+    <author>Aiwin</author>
+    <guid>http://example.org/secode_post/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/featured.jpg" referrerpolicy="no-referrer">
+            </div>一、Socket 1.通过dockerfile创建两个Docker容器 1 2 3 4 5 6 FROM ubuntu:latest RUN sed -i &#39;s#http://archive.ubuntu.com/#http://mirrors.tuna.tsinghua.edu.cn/#&#39; /etc/apt/sources.list; RUN apt-get update --fix-missing &amp;&amp;apt-get install -y python3 RUN apt-get install -y vim RUN apt-get install -y wget CMD /bin/bash 利用f]]></description>
+</item>
+<item>
+    <title>Linux----基础</title>
+    <link>http://example.org/first_post/</link>
+    <pubDate>Sun, 04 Dec 2022 00:00:00 &#43;0000</pubDate>
+    <author>Aiwin</author>
+    <guid>http://example.org/first_post/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/featured.jpg" referrerpolicy="no-referrer">
+            </div>前言 这学期学习了Linux课程，对Linux的常用命令写个总结。 一、为什么Linux如此流行？ 1.原因 作为目前世界上最受欢迎的系统，近乎世界]]></description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,6 @@
+FROM ubuntu:latest
+RUN sed -i 's#http://archive.ubuntu.com/#http://mirrors.tuna.tsinghua.edu.cn/#' /etc/apt/sources.list;
+RUN apt-get update --fix-missing &&apt-get install -y python3
+RUN apt-get install -y vim
+RUN apt-get install -y wget
+CMD /bin/bash

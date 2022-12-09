@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Linux----作业过程简介 - Aiwinの博客</title><meta name="Description" content="Linux---作业过程简介"><meta property="og:title" content="Linux----作业过程简介" />
+<meta property="og:description" content="Linux---作业过程简介" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/secode_post/" /><meta property="og:image" content="http://example.org/images/avatar.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-12-09T17:19:28+08:00" /><meta property="og:site_name" content="Aiwinの博客" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://example.org/images/avatar.png"/>
+
+<meta name="twitter:title" content="Linux----作业过程简介"/>
+<meta name="twitter:description" content="Linux---作业过程简介"/>
+<meta name="application-name" content="Aiwinの博客">
+<meta name="apple-mobile-web-app-title" content="Aiwinの博客"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="canonical" href="http://example.org/secode_post/" /><link rel="prev" href="http://example.org/first_post/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Linux----作业过程简介",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/secode_post\/"
+        },"genre": "posts","wordcount":  562 ,
+        "url": "http:\/\/example.org\/secode_post\/","datePublished": "2022-12-04T00:00:00+00:00","dateModified": "2022-12-09T17:19:28+08:00","publisher": {
+            "@type": "Organization",
+            "name": "Aiwin"},"author": {
+                "@type": "Person",
+                "name": "Aiwin"
+            },"description": "Linux---作业过程简介"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Aiwinの博客"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/avatar.png"
+        data-srcset="/images/avatar.png, /images/avatar.png 1.5x, /images/avatar.png 2x"
+        data-sizes="auto"
+        alt="/images/avatar.png"
+        title="/images/avatar.png" /><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Aiwinの博客"><img
+        class="lazyload logo"
+        src="/svg/loading.min.svg"
+        data-src="/images/avatar.png"
+        data-srcset="/images/avatar.png, /images/avatar.png 1.5x, /images/avatar.png 2x"
+        data-sizes="auto"
+        alt="/images/avatar.png"
+        title="/images/avatar.png" /><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Linux----作业过程简介</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Aiwin</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-12-04">2022-12-04</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;562 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/images/featured.jpg"
+        data-srcset="/images/featured.jpg, /images/featured.jpg 1.5x, /images/featured.jpg 2x"
+        data-sizes="auto"
+        alt="/images/featured.jpg"
+        title="Linux---作业过程简介" /></div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
+            </div><div class="content" id="content"><h1 id="一socket">一、Socket</h1>
+<p>1.通过dockerfile创建两个Docker容器</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback">FROM ubuntu:latest
+RUN sed -i &#39;s#http://archive.ubuntu.com/#http://mirrors.tuna.tsinghua.edu.cn/#&#39; /etc/apt/sources.list;
+RUN apt-get update --fix-missing &amp;&amp;apt-get install -y python3
+RUN apt-get install -y vim
+RUN apt-get install -y wget
+CMD /bin/bash
+</code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>利用from定制ubuntu镜像，然后更换镜像的源(主要是源镜像好像安装python环境报错)，通过RUN安装Python环境和一些命令。</p>
+</blockquote>
+<p>2.运行命令docker bulid -f dockerfile -t name . 生成Ubuntu镜像容器
+3.docker images查看镜像
+4.docker run -p 40:40 -v /data:/data -d  IMAGE_NAME 运行容器并映射目录
+5.docker exec -it images_id  /bin/bash进入容器
+6.进入Ubuntu命令行后运行py文件即可</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/fbc7f5d7c5904b059f8e8b05f2103922.png"
+        data-srcset="https://img-blog.csdnimg.cn/fbc7f5d7c5904b059f8e8b05f2103922.png, https://img-blog.csdnimg.cn/fbc7f5d7c5904b059f8e8b05f2103922.png 1.5x, https://img-blog.csdnimg.cn/fbc7f5d7c5904b059f8e8b05f2103922.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/fbc7f5d7c5904b059f8e8b05f2103922.png"
+        title="在这里插入图片描述" /></p>
+<h1 id="二hugo">二、Hugo</h1>
+<p>1.sudo apt-get install git	下载git
+2.git config &ndash;global user.name/user.email	配置昵称和邮箱
+3.wget <a href="https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb" target="_blank" rel="noopener noreffer ">https://github.com/spf13/hugo/releases/download/v0.14/hugo_0.14_amd64.deb</a>	下载Hugo包
+4.sudo dpkg -i hugo*.deb 安装dpgk包
+5.hugo new site /path 生成站点
+6.可以使用模板，git clone url拉取模板，放在themes目录，修改config.toml文件修改成自己想要的
+7.hugo new post/first.md 生成文章，文章至于content/posts目录
+8. hugo Server 运行Hugo站点即可
+9. 将Hugo搞好文章，目录等后，使用Hugo -D建立public文件
+10.将public文件放至apache或者nginx的/var/www/html目录即可
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/479e46f02daf427d9f98fb89bc981457.png"
+        data-srcset="https://img-blog.csdnimg.cn/479e46f02daf427d9f98fb89bc981457.png, https://img-blog.csdnimg.cn/479e46f02daf427d9f98fb89bc981457.png 1.5x, https://img-blog.csdnimg.cn/479e46f02daf427d9f98fb89bc981457.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/479e46f02daf427d9f98fb89bc981457.png"
+        title="在这里插入图片描述" />
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/91c50ba90a0b4257a5ed641f5d4fe83d.png"
+        data-srcset="https://img-blog.csdnimg.cn/91c50ba90a0b4257a5ed641f5d4fe83d.png, https://img-blog.csdnimg.cn/91c50ba90a0b4257a5ed641f5d4fe83d.png 1.5x, https://img-blog.csdnimg.cn/91c50ba90a0b4257a5ed641f5d4fe83d.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/91c50ba90a0b4257a5ed641f5d4fe83d.png"
+        title="在这里插入图片描述" /></p>
+<h1 id="三git">三、Git</h1>
+<ol>
+<li>先在github中注册token
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/1683cb3231c34ecca8239ecc5514d3c1.png"
+        data-srcset="https://img-blog.csdnimg.cn/1683cb3231c34ecca8239ecc5514d3c1.png, https://img-blog.csdnimg.cn/1683cb3231c34ecca8239ecc5514d3c1.png 1.5x, https://img-blog.csdnimg.cn/1683cb3231c34ecca8239ecc5514d3c1.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/1683cb3231c34ecca8239ecc5514d3c1.png"
+        title="在这里插入图片描述" />
+2.git add添加需要的到缓存区
+3.git commit提交到将暂存区文件交到仓库区
+4.git remote add 别名 url 创建远程仓库
+5.git push -u 别名 分直 提交到github仓库中
+6.输入用户名和Token即可
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/01a892a4c7e24f689038a14316fb7276.png"
+        data-srcset="https://img-blog.csdnimg.cn/01a892a4c7e24f689038a14316fb7276.png, https://img-blog.csdnimg.cn/01a892a4c7e24f689038a14316fb7276.png 1.5x, https://img-blog.csdnimg.cn/01a892a4c7e24f689038a14316fb7276.png 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/01a892a4c7e24f689038a14316fb7276.png"
+        title="在这里插入图片描述" /></li>
+</ol>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2022-12-09</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/secode_post/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://example.org/secode_post/" data-title="Linux----作业过程简介" data-via="xxxx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://example.org/secode_post/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://example.org/secode_post/" data-title="Linux----作业过程简介"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://example.org/secode_post/" data-title="Linux----作业过程简介"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://example.org/secode_post/" data-title="Linux----作业过程简介"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/first_post/" class="prev" rel="prev" title="Linux----基础"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Linux----基础</a></div>
+</div>
+<div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.
+            </noscript></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.92.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Aiwin</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="https://.disqus.com/embed.js" defer></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/typeit/index.umd.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"id-1":"Aiwinの博客","id-2":"Aiwinの博客"},"lightgallery":true,"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":50,"type":"lunr"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>
